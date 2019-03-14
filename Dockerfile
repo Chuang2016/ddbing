@@ -17,7 +17,7 @@ FROM alpine:latest
 # && chgrp -R 0 /v2raybin \
 # && chmod -R g+rwX /v2raybin 
  
- RUN mkdir -m 777 /v2ray
+RUN mkdir -m 777 /v2ray
  
 ADD entrypoint.sh /entrypoint.sh
 
